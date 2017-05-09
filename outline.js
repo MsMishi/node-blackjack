@@ -33,4 +33,4 @@ case 10 || "J" || "Q" || "K":
   bankroll() {
     applies to player
     gameover <= 0
-  }
+  }  //QUE????

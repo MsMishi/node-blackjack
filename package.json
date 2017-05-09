@@ -1,0 +1,31 @@
+{
+  "name": "michellecharles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "readline-sync": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasvictoria/node-blackjack.git"
+  },
+  "keywords": [
+    "blackjack",
+    "node"
+  ],
+  "author": "Mishi & Jas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasvictoria/node-blackjack/issues"
+  },
+  "homepage": "https://github.com/jasvictoria/node-blackjack#readme"
+}

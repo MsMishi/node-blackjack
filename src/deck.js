@@ -1,9 +1,12 @@
+const _ = require('lodash')
+const col = require('colors')
+
 class Deck {
   constructor () {
     this.cardDeck = []
   }
-}
-function createDeck (){
+
+ createDeck (){
   const heart = ('♥'.red).bgWhite
   const spade = ('♠'.black).bgWhite
   const diamond = ('♦'.red).bgWhite
@@ -15,7 +18,11 @@ function createDeck (){
 
 suits.forEach(function(suit){
   ranks.forEach(function(rank){
-     cardDeck.push(new Card(suit, rank))
+     this.cardDeck.push(new Card(suit, rank))
     })
   })
 }
+
+// shuffle(){
+//   this.cardDeck = _.shuffle(cardDeck)
+// }

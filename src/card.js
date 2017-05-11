@@ -13,3 +13,7 @@ class Card {
     }
   }
 }
+
+modules.export = {
+  Card: Card;
+}

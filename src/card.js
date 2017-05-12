@@ -7,8 +7,9 @@ class Card {
   }
 
   cardValue(rank) {
-    if //if ace
-
+    if (this.rank === 'A'){
+      this.value = 11
+    }
     else if (isNaN(this.rank)) {
       this.value = 10
     } else {

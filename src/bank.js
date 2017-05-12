@@ -7,7 +7,7 @@ class Bank{
 
   betMethod() {
     if ( this.bet === 0 ) {
-      var playerBet = readlineSync.question("You have " + this.account + ". Place your bet")
+      var playerBet = readlineSync.question("You have $" + this.account + ". Place your bet: ")
     } else {
       return this.account
     }
@@ -16,16 +16,16 @@ class Bank{
   }
 
   showBank() {
-    console.log(this.account)
-    return this.account
+    // console.log(this.account)
+    console.log ("You bet $" + this.bet + '. You have $' + this.account + " remaining")
   }
 }
 
-var banky = new Bank()
+let playerBank = new Bank()
 
-console.log( banky )
+console.log( playerBank )
 
-banky.betMethod()
-banky.showBank()
+playerBank.betMethod()
+playerBank.showBank()
 
 module.exports = Bank

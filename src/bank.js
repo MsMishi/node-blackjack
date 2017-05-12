@@ -1,17 +1,31 @@
-
-
+const readlineSync = require('readline-sync')
 class Bank{
-  constructor(account, bet){
-this.account = this.account - this.bet || 100,
-this.bet = bet,
+  constructor(account=100){
+    this.account = account
+    this.bet = 0
+  }
 
-  if (bet <= 0){
-    prompt("You have " + this.account + ". Place your bet")
-  } else {
-    return this.account
+  betMethod() {
+    if ( this.bet === 0 ) {
+      var playerBet = readlineSync.question("You have " + this.account + ". Place your bet")
+    } else {
+      return this.account
     }
+    this.bet = playerBet
+    this.account -= playerBet
+  }
+
+  showBank() {
+    console.log(this.account)
+    return this.account
   }
 }
-console.log(new Bank())
+
+var banky = new Bank()
+
+console.log( banky )
+
+banky.betMethod()
+banky.showBank()
 
 module.exports = Bank

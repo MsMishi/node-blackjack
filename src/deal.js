@@ -7,17 +7,17 @@ const _ = require('lodash')
 class Deal {
   constructor() {
     this.card = card
-    this.deck = deck
+    this.hand = hand
   }
 
   dealCard(card) {
-    console.log(card.toString()
+    console.log(card.toString())
+    this.cards.push(card)
+    this.
   }
 
   }
 
 }
-
-
 
 module.exports = Deal

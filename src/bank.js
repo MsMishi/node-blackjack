@@ -1,7 +1,7 @@
-module.export = Bank
+
 
 class Bank{
-  constructor(account, bet, wager){
+  constructor(account, bet){
 this.account = this.account - this.bet || 100,
 this.bet = bet,
 
@@ -13,3 +13,5 @@ this.bet = bet,
   }
 }
 console.log(new Bank())
+
+module.exports = Bank

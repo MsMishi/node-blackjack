@@ -1,3 +1,5 @@
+const card = require('./card.js')
+
 class Deck {
   constructor() {
     this.cardDeck = []

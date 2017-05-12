@@ -1,9 +1,10 @@
 class Card {
   constructor(rank, suit) {
+
     this.rank = rank
     this.suit = suit
     this.value = null;
-    this.picture = null
+    
   }
 
   cardValue(rank) {
@@ -21,6 +22,6 @@ class Card {
   }
 }
 
-var dis = new Card()
 
 module.exports = Card
+

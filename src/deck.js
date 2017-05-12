@@ -1,4 +1,5 @@
-const card = require('./card.js')
+const Card = require('./card.js')
+const colors = require('colors')
 
 class Deck {
   constructor() {
@@ -22,5 +23,7 @@ function createDeck() {
     })
   })
 }
+
+let GameCard = new Card
 
 module.exports = Deck

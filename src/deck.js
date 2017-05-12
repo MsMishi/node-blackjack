@@ -1,6 +1,8 @@
 const _ = require('lodash')
 const col = require('colors')
+const card = require('/.card.js')
 
+module.exports = Deck
 class Deck {
   constructor () {
     this.cardDeck = []
@@ -23,7 +25,7 @@ suits.forEach(function(suit){
   })
 }
 
-module.exports = Deck
+
 
 // shuffle(){
 //   this.cardDeck = _.shuffle(cardDeck)

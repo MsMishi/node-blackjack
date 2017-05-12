@@ -1,3 +1,8 @@
+const Deck = require('./deck.js')
+const Card = require('./card.js')
+const Hand = require('./hand.js')
+const Bank = require('./bank.js')
+
 function startGame(){
 let userInput = prompt("welcome to black jack!! 😜 press s to start, press e to end game")
  if (userInput === "s" || userInput === "S"){

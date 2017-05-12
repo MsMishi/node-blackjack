@@ -1,3 +1,4 @@
+module.exports = Card
 class Card {
   constructor(rank, suit) {
   this.rank = rank,
@@ -12,8 +13,5 @@ class Card {
       this.rank === this.value
     }
   }
-}
-
-modules.export = {
-  Card: Card;
+ return new Card().toString()
 }

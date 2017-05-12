@@ -1,6 +1,15 @@
-function bank(){
-  account = 1000
-  wager = account - bet
+module.export = Bank
 
-  prompt("How much would you like to bet?")
+class Bank{
+  constructor(account, bet, wager){
+this.account = this.account - this.bet || 100,
+this.bet = prompt("You have " + this.account + ". Place your bet")
+
+  if (bet <= 0){
+    prompt("You have " + this.account + ". Place your bet")
+  } else {
+    return this.account
+    }
+  }
 }
+console.log(new Bank())

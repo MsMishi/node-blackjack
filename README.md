@@ -44,9 +44,9 @@ This goal provides a great chance to spend a whole week working with only .js fi
 
 # Specifications
 
-- [ ] There is a README that includes directions for how to access, initialize, and run your game in the terminal/shell.
-- [ ] The file system is separated in to different files, and the separation is logical. (example: The code for how to shuffle a deck should live in a different place than the code for the logic in how the dealer behaves.)
-- [ ] Functions are concise and specific, and named in a way that is friendly to the reviewer / other learners.
+- [x] There is a README that includes directions for how to access, initialize, and run your game in the terminal/shell.
+- [x] The file system is separated in to different files, and the separation is logical. (example: The code for how to shuffle a deck should live in a different place than the code for the logic in how the dealer behaves.)
+- [x] Functions are concise and specific, and named in a way that is friendly to the reviewer / other learners.
 - [ ] The end product is a playable blackjack game that satisfies the following sub-specs:
 - [ ] The game is playable as one player and one dealer (AI)
 - [ ] The player has a bank, and can continue playing rounds until they quit or are out of bankroll.
@@ -59,9 +59,9 @@ This goal provides a great chance to spend a whole week working with only .js fi
 - [ ] There is an exit command to terminate the game.
 - [ ] The game does not allow you to bet more than you have.
 - [ ] Each round begins by showing you your current bankroll, and you can bet as much or as little of that total as you wish.
-- [ ] The house pays out on a 1:1 profit on wins (example: If you have $10, bet it all, and win, you now have $20)
+- [x] The house pays out on a 1:1 profit on wins (example: If you have $10, bet it all, and win, you now have $20)
 - [ ] The game observes only the basic rules of blackjack: Natural blackjacks, ties lead to re-deals with the same bet, basic hit or stay abilities. Do not worry about more complex rules like doubling-down or splits.
-- [] The artifact for the project is set and the readME includes the: Team name, goal number, team member handles, and a brief description of how to play your game (example: What is the command to quit, start, hit, or stay?)
+- [x] The artifact for the project is set and the readME includes the: Team name, goal number, team member handles, and a brief description of how to play your game (example: What is the command to quit, start, hit, or stay?)
 
 # Stretch
  The game supports multiple user-players.

@@ -14,4 +14,4 @@ class Card {
   }
 }
 
-modules.export = Card
+module.export = Card
